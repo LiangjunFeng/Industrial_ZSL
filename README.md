@@ -18,7 +18,7 @@ SPCA extracting feature (takes lots of time)...
 model training...   
 NB  
 accuracy:  0.6263888888888889  
-rf
+rf    
 accuracy:  0.5187777777777777 
 
 #### If the code is helpful for your research, please cite the following papers:   
