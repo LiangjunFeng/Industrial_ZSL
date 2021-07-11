@@ -155,17 +155,6 @@ def pre_model_proba(model, traindata, trainlabel, train_attributelabel, testdata
 
 
 print("==========================[test classes][3 ,6, 9]===================================")
-print("beginning...without feature extraction")
-traindata, trainlabel, train_attributelabel, testdata, testlabel, \
-test_attributelabel, attribute_matrix, train_attribute_matrix = creat_dataset([3, 6, 9])
-print(traindata.shape, trainlabel.shape, train_attributelabel.shape)
-print(testdata.shape, testlabel.shape, test_attributelabel.shape)
-print("model training...")
-pre_model_proba('NB', traindata, trainlabel, train_attributelabel, testdata, testlabel,
-          test_attributelabel, attribute_matrix)
-pre_model_proba('rf', traindata, trainlabel, train_attributelabel, testdata, testlabel,
-          test_attributelabel, attribute_matrix)
-
 print("beginning...with feature extraction")
 traindata, trainlabel, train_attributelabel, testdata, testlabel, \
 test_attributelabel, attribute_matrix, train_attribute_matrix = creat_dataset([3, 6, 9])
@@ -181,17 +170,6 @@ pre_model('rf', traindata, trainlabel, train_attributelabel, testdata, testlabel
 
 
 print("==========================[test classes][0 ,5, 13]===================================")
-print("beginning...without feature extraction")
-traindata, trainlabel, train_attributelabel, testdata, testlabel, \
-test_attributelabel, attribute_matrix, train_attribute_matrix = creat_dataset([0, 5, 13])
-print(traindata.shape, trainlabel.shape, train_attributelabel.shape)
-print(testdata.shape, testlabel.shape, test_attributelabel.shape)
-print("model training...")
-pre_model_proba('NB', traindata, trainlabel, train_attributelabel, testdata, testlabel,
-          test_attributelabel, attribute_matrix)
-pre_model_proba('rf', traindata, trainlabel, train_attributelabel, testdata, testlabel,
-          test_attributelabel, attribute_matrix)
-
 print("beginning...with feature extraction")
 traindata, trainlabel, train_attributelabel, testdata, testlabel, \
 test_attributelabel, attribute_matrix, train_attribute_matrix = creat_dataset([0, 5, 13])
@@ -204,6 +182,7 @@ pre_model('NB', traindata, trainlabel, train_attributelabel, testdata, testlabel
           test_attributelabel, attribute_matrix)
 pre_model('rf', traindata, trainlabel, train_attributelabel, testdata, testlabel,
           test_attributelabel, attribute_matrix)
+
 
 
 
