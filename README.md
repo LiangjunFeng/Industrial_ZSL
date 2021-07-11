@@ -1,5 +1,6 @@
 # Industrial_ZSL
-Source Code of Industrial_ZSL in   
+Source code of Industrial_ZSL on TE benchmark dataset.   
+The details of model can be found in    
  [L. J. Feng, et al. Fault Description Based Attribute Transfer for Zero-Sample Industrial Fault Diagnosis, TII, 2021.](https://ieeexplore.ieee.org/document/9072621)
 
 #### Fast execution in command line:  
