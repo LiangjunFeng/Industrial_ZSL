@@ -21,6 +21,6 @@ accuracy:  0.6263888888888889
 rf    
 accuracy:  0.5187777777777777 
 
-#### If the code is helpful for your research, please cite the following papers:   
+#### All rights reserved, citing the following papers are required for reference:   
 [1] L. J. Feng, et al. Fault Description Based Attribute Transfer for Zero-Sample Industrial Fault Diagnosis, TII, 2021.  
 [2] L. J. Feng, et al. Transfer Increment for Generalized Zero-Shot Learning, TNNLS, 2021.  
